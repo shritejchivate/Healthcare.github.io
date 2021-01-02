@@ -1,0 +1,538 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800;900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+#hero{
+background:#F4F6FB;
+background-size: cover;
+width: 100%;
+position: relative;
+}
+
+.content{
+    padding-top: 50px;
+}
+.content .sp1{
+    font-size: 7.0rem;
+    color: rgb(237, 149, 78);
+    font-weight: 800;
+}
+.content .sp2{
+    font-size: 5.0rem;
+    color: rgb(133, 184, 62);
+    font-weight: 600;
+}
+.text-para{
+    color: rgb(237, 149, 78); 
+    font-size: 1.6rem;
+    padding-top: 10px; 
+}
+.orange-btn{
+    background:rgb(237, 149, 78);
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 5px 15px;
+}
+.orange-btn:hover{
+    color: #fff;
+    cursor: pointer; 
+}
+.social-icon{
+    padding-top: 25px;
+}
+.social-icon i{
+    color:  rgb(133, 184, 62);
+}
+
+
+/* ------------- */
+#about{
+   background:rgb(133, 184, 62);
+   background-size: cover;
+   width: 100%;
+   position: relative;  
+   padding-top: 100px; 
+   padding-bottom: 50px;
+   padding-left: 50px; 
+   padding-right: 50px;
+}
+#about h4{
+    color: #fff;
+    font-size: 2.5rem;
+}
+#about p{
+font-size: 1.4rem;
+color: #fff;
+line-height: 1.7;
+text-align: justify;
+}
+.bg-orange{
+    background:rgb(237, 149, 78);
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+}
+.bg-orange h3{
+    color: #fff;
+    font-weight: bold;
+}
+
+#about .form-control{
+    border-radius: 0%;
+}
+.appoit-btn{
+    background:rgb(237, 149, 78);  
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    font-weight: bold;
+}
+.appoit-btn:hover{
+    color: #fff;
+}
+
+
+/* --------------- */
+
+.about-sec{
+    background:url("../assets/img/about-sec.jpg");
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    padding-left: 60px; 
+    padding-right: 60px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.about-sec .health-col{
+    border: 3px solid #fff;
+} 
+.about-sec h4{
+ color: #fff;
+ padding-top: 50px;
+ font-size: 1.8rem;
+}
+.about-sec h2{
+    font-weight: 600;
+    color: #fff;
+    padding-top: 10px;
+    font-size: 2.4rem;
+}
+.about-sec p{
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 200;
+    line-height: 1.8;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.about-sec .card{
+ background-color: rgb(133, 184, 62);
+}
+
+.about-sec .counttext{
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 400; 
+}
+.card-row{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.about-sec .total{
+    color: #fff;
+    font-size: 2.0rem;
+    font-weight: 600;  
+}
+.about-sec .total1{
+    color: #fff;
+    font-size: 2.0rem;
+    font-weight: 600;  
+}
+.about-sec .total2{
+    color: #fff;
+    font-size: 2.0rem;
+    font-weight: 600;  
+}
+.fa-plus{
+    color: #ffff;
+}
+/* ------------------------ */
+
+#whyChoose{
+    background:#fff;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    padding-left: 60px; 
+    padding-right: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;  
+}
+.why-content .hcare{
+    padding-top: 80px;
+}
+.why-content .htext{
+    font-size: 1.8rem;
+    color: #000;
+    font-weight: 600;
+}
+.why-content h2{
+    padding-top: 15px;
+    font-size: 2.4rem;
+    color: #000;
+    font-weight: 500;
+}
+.why-content p{
+    padding-top: 20px;
+    font-size: 1.4rem;
+    color: #000;
+    line-height: 1.6;
+    text-align: justify;
+}
+.top-pro-col{
+    border: 2px solid rgb(133, 184, 62);
+    padding: 15px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+.top-pro-col span{
+    color: #000;
+    font-size: 1.4rem;
+    font-weight: 800!important;
+}
+
+/* ----------------------- */
+
+#services{
+    background:url("../assets/img/service.jpg");
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 155px;  
+}
+#services .service-title{
+    padding-top: 40px;
+}
+.service-title .hcare{
+    font-size: 1.8rem;
+    color: #000;
+    font-weight: 600;
+}
+.service-title h2{
+    padding-top: 15px;
+    font-size: 2.4rem;
+    color: #000;
+    font-weight: 500;
+}
+#services .card-title{
+    font-weight: 600;
+    color: rgb(133, 184, 62);
+}
+#services .card-text{
+    line-height: 1.8;
+    font-size: 16px;
+    color: rgb(24, 23, 23);
+}
+.learn-more{
+    background:rgb(237, 149, 78);  
+    border: none;
+    color: #fff;
+    font-size: 1.0rem;
+    cursor: pointer;
+}
+.learn-more:hover{
+    color: #fff;
+}
+#services .card-deck{
+padding-top: 70px;
+}
+#services .card{
+ border: none;
+}
+/* -------------------- */
+#makeAppointment{
+    background:rgb(133, 184, 62); 
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+#makeAppointment p{
+font-size: 1.8rem;
+color: #fff;
+font-weight: 600;
+}
+.call-us{
+    background:rgb(237, 149, 78);
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.call-us:hover{
+    color: #fff;
+    cursor: pointer; 
+}
+
+/* ------------ */
+#getInTouch{
+    background: #fff;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+}
+
+#getInTouch .service-title{
+    padding-top: 80px;
+}
+#getInTouch .service-title .hcare{
+    font-size: 1.8rem;
+    color: #000;
+    font-weight: 600;
+}
+#getInTouch .service-title h2{
+    padding-top: 15px;
+    font-size: 2.4rem;
+    color: #000;
+    font-weight: 500;
+}
+#getInTouch .card{
+    height: 100%;
+    max-height: 300px;
+    border-color: #000;
+    border-radius: 15px;
+}
+#getInTouch .card-title{
+    font-weight: 600;
+    color:rgb(237, 149, 78); 
+}
+#getInTouch .email{
+    color: #000;
+    text-decoration: none;
+}
+#getInTouch #addres-sec{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+/* ------------ */
+.footer{
+    background: rgb(237, 149, 78); 
+    background-size: cover;
+    width: 100%;
+    position: relative;  
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+.footer p{
+    color: #fff;
+}
+.footer a{
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+.social-icon-footer i{
+    color:  rgb(133, 184, 62);
+}
+
+
+
+
+
+
+/* -=========Media queries================= */
+@media screen and (max-width: 1440px) {
+    .about-sec p{
+        text-align: justify!important;
+        padding-top: 30px;
+    }
+    .about-sec p br{
+        display: none;
+    }
+    .card-row{
+        padding-top: 50px;
+    }
+ 
+}
+@media screen and (max-width: 1024px) {
+    br{
+        display: none;
+    }
+    .content .sp1{
+        font-size: 4rem;
+    }
+    .content .sp2{
+        font-size: 3rem;
+    }
+    #counter-card .col-md-6{
+        max-width: 100%;
+    }
+    .about-sec p{
+        padding-top: 20px;
+        text-align: justify!important;
+    }
+    .card-row{
+        padding-top: 35px;
+    }
+    .top-pro-col span{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+.content{
+   padding-top: 30px;
+}
+.content .sp1{
+    font-size: 3.0rem;
+}
+.content .sp2{
+    font-size: 2.5rem;
+}
+.text-para{
+    text-align: justify;
+    font-size: 1.2rem;
+}
+}
+
+@media screen and (max-width: 600px) {
+    #about{
+        padding-top: 0px;
+        padding-left: 0px; 
+        padding-right: 0px;
+    }
+    #about h4 {
+        font-size: 1.6rem;
+    }
+    #about p{
+        font-size: 1.0rem;
+    }
+    .bg-orange h3{
+        font-size: 1.2rem;
+    }
+    .appoit-btn{
+        font-size: 1.0rem;
+    }
+    .about-sec{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .about-sec p{
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 1.0rem;
+        padding-top: 10px;
+        text-align: justify!important;
+    }
+    .about-sec h4 {
+        padding-top: 20px;
+        font-size: 1.4rem;
+    }
+    .about-sec h2 {
+        font-weight: 600;
+        color: #fff;
+        padding-top: 0px;
+        font-size: 1.8rem;
+    }
+    .card-row{
+        padding-top: 30px;
+    }
+    #whyChoose{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .why-content .hcare{
+        padding-top: 30px;
+        
+    }
+    .why-content{
+        text-align: center;
+    }
+    .why-content h2{
+        font-size: 1.8rem;
+    }
+    .why-content .hcare img{
+        display: none;
+    }
+    .why-content .htext {
+        font-size: 1.4rem;
+    }
+    .why-content p {
+        padding-top: 10px;
+        font-size: 1.0rem;
+        text-align: justify;
+    }
+    .top-pro-col span{
+        font-size: 1.2rem;
+    }
+    .text-para {
+        text-align: justify;
+        font-size: 1.0rem;
+    }
+    #hero .col-md-6{
+        padding: 20px 10px 10px 10px!important;
+
+    }
+    .content .sp1{
+        font-size: 2.4rem;
+    }
+    .content .sp2{
+        font-size: 1.8rem;    
+    }
+    br{
+        display: none;
+    }
+
+    .service-title .hcare img{
+        display: none;
+    }
+    .service-title .htext {
+        font-size: 1.4rem;
+    }
+    .service-title h2 {
+        padding-top: 10px;
+        font-size: 1.8rem;
+    }
+    #services .card-deck {
+        padding-top: 40px;
+    }
+    #services .service-title{
+        text-align: center;
+    }
+    #getInTouch .service-title{
+        padding-top: 40px;
+    }
+    #getInTouch .service-title h2{
+        font-size: 1.8rem;
+        padding-top: 10px;
+    }
+    #services{
+        padding-top: 0px;
+        padding-bottom: 60px;
+    }
+    #getInTouch #addres-sec {
+        padding-top: 20px;
+    }
+    #counter-card .col-md-6{
+        max-width: 100%;
+        text-align: center!important;
+    }
+
+}
